@@ -10,7 +10,7 @@ import charHead from 'images/char_head.png';
 // Local Styling
 import localstyle from './PageOne.module.scss';
 
-const PageOne = (props) => {
+function PageOne(props) {
 
   // Toggle base client_state.loading bool
   function toggleReduxStateTest() {
@@ -35,6 +35,5 @@ const PageOne = (props) => {
   )
 
 }
-
 
 export default connect(mapAllStatesToProps, mapAllDispatchesToProps)(PageOne)

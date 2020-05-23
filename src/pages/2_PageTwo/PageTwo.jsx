@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 // Local Styling
 import localstyle from './PageTwo.module.scss';
 
-const PageTwo = (props) => {
+function PageTwo(props) {
 
   return (
     <div className="pageWrapColumn">
@@ -24,6 +24,5 @@ const PageTwo = (props) => {
   )
 
 }
-
 
 export default connect(mapAllStatesToProps, mapAllDispatchesToProps)(PageTwo)
